@@ -47,6 +47,16 @@
   box-sizing: border-box;
 }
 
+@media (max-width: 629px){
+  .masthead-avatar{
+    display: none;
+  }
+
+  .main-text {
+    padding-top: 10em;
+  }
+}
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
